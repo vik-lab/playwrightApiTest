@@ -1,0 +1,24 @@
+Playwright JavaScript API Tests
+This repository contains JavaScript API tests using Playwright for automated testing of web applications.
+
+Installation
+To run the tests, you'll need to install the following packages:
+Node.js (v14 or higher recommended)
+npm (comes with Node.js)
+
+Once you have Node.js and npm installed, you can install the necessary packages by running:
+npm install @playwright/test --save-dev
+
+Running Tests
+To run the tests, execute the following command in your terminal:
+npx playwright test
+This command will execute all the tests located in the tests directory by default. You can customize which tests to run by providing a path or a glob pattern as an argument to the npx playwright test command.
+
+For example, to run a specific test file:
+npx playwright test tests/petApiTests.spec.js
+
+Viewing Results
+After running the tests, you'll see the test results printed to the console. Playwright provides detailed output including test descriptions, status (pass/fail), and any errors encountered during execution.
+
+Additionally, Playwright generates HTML and JSON reports by default. You can find the reports in the test-results directory. 
+Open the HTML report in your browser to view a more detailed summary of the test results.
