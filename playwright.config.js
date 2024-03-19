@@ -6,6 +6,7 @@ export default defineConfig({
     extraHTTPHeaders: {
       // We set this header per GitHub guidelines.
       'Accept': 'application/json',
+      //reporter: [['html', { open: 'never' }]],
       // Add authorization token to all requests.
       // Assuming personal access token available in the environment.
       //'Authorization': `token ${process.env.API_TOKEN}`,

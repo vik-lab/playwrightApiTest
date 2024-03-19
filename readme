@@ -23,5 +23,8 @@ npx playwright test tests/petApiTests.spec.js
 Viewing Results
 After running the tests, you'll see the test results printed to the console. Playwright provides detailed output including test descriptions, status (pass/fail), and any errors encountered during execution.
 
-Additionally, Playwright generates HTML and JSON reports by default. You can find the reports in the test-results directory. 
+Additionally, Playwright generates HTML and JSON reports by default. You can find the reports in the test-results directory.
 Open the HTML report in your browser to view a more detailed summary of the test results.
+Update below:
+
+Run the following command to generate the html report: npx playwright test --reporter=html
